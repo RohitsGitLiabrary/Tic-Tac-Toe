@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div>
+        <h1 class="bungee-tint-regular">Tic Tac Toe</h1>
+      </div>
+      <br />
+      <div class="gameBoard">
+        <table table table-bordered>
+          <tr class="trow">
+            <td id="cell1" class="cell-Content"></td>
+            <td id="cell2" class="cell-Content"></td>
+            <td id="cell3" class="cell-Content"></td>
+          </tr>
+          <tr class="trow">
+            <td id="cell4" class="cell-Content"></td>
+            <td id="cell5" class="cell-Content"></td>
+            <td id="cell6" class="cell-Content"></td>
+          </tr>
+          <tr class="trow">
+            <td id="cell7" class="cell-Content"></td>
+            <td id="cell8" class="cell-Content"></td>
+            <td id="cell9" class="cell-Content"></td>
+          </tr>
+        </table>
+      </div>
+      <div class="winnerStats bungee-tint-regular"></div>
+      <div class="resetBtn">
+        <button
+          class="button-19"
+          role="button"
+          id="resetGame"
+          onclick="resetGame()"
+        >
+          Reset
+        </button>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
+  </body>
+</html>
